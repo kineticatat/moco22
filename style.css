@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 2%;
+  font-family: brandon, sans-serif;
+}
+
+@font-face {
+  font-family: brandon, sans-serif;
+  src: url(brandon.otf);
+}
+
+.logo {
+  width: 20%;
+  margin: 0;
+  position: fixed;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.buttons{
+  margin-left: 20%;
+  width: 78%;
+  margin-top: 4%;
+  margin-bottom: 3%;
+}
+
+.buttons img:hover {
+  opacity: 0.5;
+}
+
+.buttons img {
+  margin: .75%;
+}
+
+.h img {
+  margin-top: 3%;
+  margin-left: 0%;
+  padding-left: 0%;
+}
+
+.h img:hover {
+  opacity: 1.0;
+}
+
+.logo li {
+  border-left: 2px solid black;
+  padding-top: 5px;
+  padding-left: 2px;
+  margin-top: 15px;
+  margin-left: 0;
+  list-style-type: none;
+  width: 80%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+  color: purple;
+  font-weight: bold;
+}
+
+.logo ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.under {
+  text-decoration: underline;
+}
