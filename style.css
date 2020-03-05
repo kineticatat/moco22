@@ -19,13 +19,20 @@ nav {
   float: left;
 }
 
-main {
+.front {
   width: 78%;
   margin-left: 20%;
   position: fixed;
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+}
+
+.other {
+  width: 78%;
+  margin-left: 20%;
+  margin-top: auto;
+
 }
 
 main img:hover {
