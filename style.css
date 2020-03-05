@@ -9,27 +9,30 @@ body {
   src: url(brandon.otf);
 }
 
-.logo {
+nav {
   width: 20%;
   margin: 0;
   position: fixed;
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+  float: left;
 }
 
-.buttons{
-  margin-left: 20%;
+main {
   width: 78%;
-  margin-top: 4%;
-  margin-bottom: 3%;
+  margin-left: 20%;
+  position: fixed;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
-.buttons img:hover {
+main img:hover {
   opacity: 0.5;
 }
 
-.buttons img {
+main img {
   margin: .75%;
 }
 
@@ -43,7 +46,7 @@ body {
   opacity: 1.0;
 }
 
-.logo li {
+nav li {
   border-left: 2px solid black;
   padding-top: 5px;
   padding-left: 2px;
@@ -63,7 +66,7 @@ a:hover {
   font-weight: bold;
 }
 
-.logo ul {
+nav ul {
   margin-left: 0;
   padding-left: 0;
 }
