@@ -37,6 +37,11 @@ nav {
 margin-right: 1%;
 }
 
+.space {
+  width: 78%;
+margin: auto;
+}
+
 main img:hover {
   opacity: 0.5;
 }
