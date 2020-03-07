@@ -8,16 +8,30 @@
 
 <body>
 <nav>
+
+  <div class="topnav" id="myTopnav">
+    <a href="index.html" class="active"><img src="logo2.png"  alt="MOCO2021 Logo" width="80%" /></a>
+    <a href="air.html">Artist in Residence</a>
+    <a href="">Call for Papers</a>
+    <a href="">Industry Partners</a>
+    <a href="about.html">About</a>
+    <a href="organizing.html">Organizing Committee</a>
+    <a href="contact.html">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  <!--
 <a href="index.html"><img src="logo2.png"  alt="MOCO2021 Logo" width="80%" /></a>
 
 <ul>
   <li><a href="air.html">Artist in Residence</a></li>
+  <li><a href="about.html">About</a></li>
   <li>Call for Papers (TBA)</li>
   <li>Industry Partners (TBA)</li>
-  <li><a href="about.html">About</a></li>
   <li><a href="organizing.html">Organizing Committee</a></li>
   <li><a href="contact.html">Contact</a></li>
-</ul>
+</ul>-->
 </nav>
 
 <main>
@@ -25,7 +39,8 @@
   <div class="h">
   <img src="sL.png"  alt="MOCO2021 Dancers with Robot Wings" width="100%" />
   </div>
-      <div class="space">
+
+   <div class="space">
   <h2>Artist-in-Residence (AiR) position via the 8th International Conference on Movement and Computing</h2>
 
   <p>The organizers of the 8th International Conference on Movement and Computing (MOCO 2021) invite applications for an Artist-in-Residence (AiR) for roughly March-September of 2021. </p>
@@ -52,9 +67,18 @@
 </ul>
 
   <p>Applications are accepted until an AiR is announced.  Please write to Amy LaViers and Kristin Carlson with any questions at alaviers@illinois.edu and kacarl1@ilstu.edu.  This residency is supported by MOCO and its industrial sponsors as well as the Conference on Research on Choreographic Interfaces (CRCI), which is providing advisory and programmatic support, including development of best-practices and funding for this position, and Zoi Arts, which is providing design of and support for outreach experiences for the Chicago public alongside the AiR.</p>
-    </div>
-    </div>
+  </div>
+</div>
 </main>
-
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 </body>
 </html>

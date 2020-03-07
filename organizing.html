@@ -8,16 +8,29 @@
 
 <body>
 <nav>
+  <div class="topnav" id="myTopnav">
+    <a href="index.html" class="active"><img src="logo2.png"  alt="MOCO2021 Logo" width="80%" /></a>
+    <a href="air.html">Artist in Residence</a>
+    <a href="">Call for Papers</a>
+    <a href="">Industry Partners</a>
+    <a href="about.html">About</a>
+    <a href="organizing.html">Organizing Committee</a>
+    <a href="contact.html">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  <!--
 <a href="index.html"><img src="logo2.png"  alt="MOCO2021 Logo" width="80%" /></a>
 
 <ul>
   <li><a href="air.html">Artist in Residence</a></li>
+  <li><a href="about.html">About</a></li>
   <li>Call for Papers (TBA)</li>
   <li>Industry Partners (TBA)</li>
-  <li><a href="about.html">About</a></li>
   <li><a href="organizing.html">Organizing Committee</a></li>
   <li><a href="contact.html">Contact</a></li>
-</ul>
+</ul>-->
 </nav>
 
 <main>
@@ -25,8 +38,7 @@
   <div class="h">
   <img src="sL.png"  alt="MOCO2021 Dancers with Robot Wings" width="100%" />
   </div>
-
-    <div class="space">
+ <div class="space">
 <h2>Organizing Committee (In Process)</h2>
 <h3>Conference Co-Chairs</h3>
 <ul>
@@ -83,9 +95,18 @@
 <li>Thecla Schiphorst, Simon Fraser University</li>
 <li>Gualtiero Volpe, University of Genova</li>
 </ul>
-    </div>
   </div>
+</div>
 </main>
-
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 </body>
 </html>
