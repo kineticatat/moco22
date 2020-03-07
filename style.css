@@ -3,14 +3,16 @@
   /*rotate code for home page on mobile*/
 /*whole body home page*/
 .f {
-  transform: rotate(90deg);
-  transform-origin: 3cm 100px;
+  transform: rotate(90deg) scale(1.5);
+  transform-origin: 60px 130px;
+  width: 100%;
+  margin: auto;
 }
 
 /*nav buttons/ body content on home page*/
 .front {
-/*  width: 90%;
-  margin: auto;*/
+  width: 100%;
+  margin: auto;
  top: 100%;
   -ms-transform: translateY(-500px);
   transform: translateY(-500px);
@@ -19,6 +21,21 @@
   .logo {
     transform: rotate(-90deg);
   }
+
+nav {
+  width: 100px;
+  margin: auto;
+/*  position: absolute;
+  top: 2%;
+  -ms-transform: translateY(0%);
+  transform: translateY(0%);*/
+  float: none;
+}
+
+.other {
+  width: 90%;
+  margin: auto;
+}
 
 /*nav minimize on mobile for subpages*/
 /*using this example: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp*/
@@ -105,18 +122,32 @@ margin-right: 1%;
 margin: auto;
 }
 
+.spaceheight {
+margin-top: 20%;
+}
+
+p {
+  font-size: 18px;
+}
+
+main li {
+    font-size: 18px;
+}
+
 main img:hover {
   opacity: 0.5;
 }
 
 main img {
   margin: .75%;
+width: 12%;
 }
 
 .h img {
   margin-top: 3%;
-  margin-left: 0%;
-  padding-left: 0%;
+  margin: auto;
+  padding-left: 10%;
+  width: 78%;
 }
 
 .h img:hover {
