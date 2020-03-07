@@ -5,6 +5,7 @@
 .f {
   transform: rotate(90deg) scale(1.5);
   transform-origin: 60px 130px;
+  
   width: 100%;
   margin: auto;
 }
