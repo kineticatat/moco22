@@ -7,52 +7,52 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-
 <body>
-<nav>
-<!-- starting to prep nav for mobile minimize-->
-<div class="topnav" id="myTopnav">
-  <a href="index.html" class="active"><img src="logo2.png"  alt="MOCO2021 Logo" width="80%" /></a>
-  <a href="about.html">About</a>
-  <a href="air.html">Artist in Residence</a>
-  <a href="">Call for Papers</a>
-  <a href="">Industry Partners</a>
-  <a href="organizing.html">Organizing Committee</a>
-  <a href="contact.html">Contact</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>
-</nav>
+<div class="wrap">
 
-<main>
-  <div class="other">
-  <div class="spaceheight">
-  <div class="h">
-  <img src="sL.png"  alt="MOCO2021 Dancers with Robot Wings" width="100%" />
-  </div>
+			  <div id="sidebar-left">
+          <div class="topnav" id="myTopnav">
+            <a href="index.html" class="active"><img src="logo2.png"  alt="MOCO2021 Logo"/></a>
+            <a href="about.html">About</a>
+            <a href="air.html">Artist in Residence</a>
+            <a href="">Call for Papers</a>
+            <a href="">Industry Partners</a>
+            <a href="organizing.html">Organizing Committee</a>
+            <a href="contact.html">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+        </div>
 
- <div class="space">
-<h2>About</h2>
 
-<p>MOCO is an interdisciplinary conference that explores the use of computational technology to support and understand human movement practice (e.g. computational analysis) as well as movement as a means of interacting with computers (e.g. movement interfaces). This requires a wide range of computational tasks including modeling, representation, segmentation, recognition, classification, or generation of movement information but also an interdisciplinary understanding of movement that ranges from biomechanics to embodied cognition and the phenomenology of bodily experience. We therefore invite submissions from a wide range of disciplines including (but not limited to): Human-Computer Interaction, Psychology, Dance, Artificial Intelligence, Neuroscience, Sports Science, Machine Learning, Cognitive Science, Visual Arts, Robotics, Philosophy, Anthropology, Music, Affective Computing, Games, Healthcare and Animation.</p>
+        <div id="sidebar-right">
+          <div class="other">
+          <div class="h">
+          <img src="sL.png"  alt="MOCO2021 Dancers with Robot Wings" width="100%" />
+          </div>
 
-<p>More information about MOCO can be found on the main <a href="https://www.movementcomputing.org/"><span class="under">MOCO</span></a> website.</p>
-   <p>Images: <a href="https://thepeoplemovers.co/tpm-x-rad/">"Babyface"</a> by The People Movers and the Robotics, Automation, and Dance (RAD) Lab. Image by Colin Edson.</p>
-    </div>
-    </div>  
-</div>
-</main>
+         <div class="space">
+        <h2>About</h2>
 
-<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-</script>
+        <p>MOCO is an interdisciplinary conference that explores the use of computational technology to support and understand human movement practice (e.g. computational analysis) as well as movement as a means of interacting with computers (e.g. movement interfaces). This requires a wide range of computational tasks including modeling, representation, segmentation, recognition, classification, or generation of movement information but also an interdisciplinary understanding of movement that ranges from biomechanics to embodied cognition and the phenomenology of bodily experience. We therefore invite submissions from a wide range of disciplines including (but not limited to): Human-Computer Interaction, Psychology, Dance, Artificial Intelligence, Neuroscience, Sports Science, Machine Learning, Cognitive Science, Visual Arts, Robotics, Philosophy, Anthropology, Music, Affective Computing, Games, Healthcare and Animation.</p>
+
+        <p>More information about MOCO can be found on the main <a href="https://www.movementcomputing.org/"><span class="under">MOCO</span></a> website.</p>
+<p>Images: <a href="https://thepeoplemovers.co/tpm-x-rad/">"Babyface"</a> by The People Movers and the Robotics, Automation, and Dance (RAD) Lab. Image by Colin Edson.</p>
+          </div>
+        </div>
+        </div>
+		</div>
+
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
 </body>
 </html>
