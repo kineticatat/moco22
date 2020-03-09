@@ -194,6 +194,10 @@ a:hover {
   width: 100%;
   margin: auto;
 }
+  
+main img {
+  margin-left: 0;
+}
 
 /*nav minimize on mobile for subpages*/
 /*using this example: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp*/
