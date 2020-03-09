@@ -190,10 +190,12 @@ a:hover {
     transform: rotate(-90deg);
   }
 
-.other {
-  width: 100%;
-  margin: auto;
-}
+  .h img {
+    margin-top: 3%;
+    margin: auto;
+    padding-left: 0%;
+    width: 100%;
+  }
   
 main img {
   margin-left: 0;
