@@ -189,6 +189,13 @@ a:hover {
   .logo {
     transform: rotate(-90deg);
   }
+  
+    .front {
+    width: 100%;
+    margin: auto;
+    padding-left: 20%;
+    position: absolute;
+}
 
   .h img {
     margin-top: 3%;
