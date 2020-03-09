@@ -198,14 +198,14 @@ a:hover {
   }
 
   .other {
-    width: 100%;
-    margin: 10px;
+    width: 95%;
+    margin: auto;
     padding: 0;
   }
 
   .space {
-    width: 100%;
-  margin: 0;
+    width: 90%;
+  margin: auto;
   padding: 0;
   }
 
