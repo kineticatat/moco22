@@ -189,7 +189,11 @@ a:hover {
   .logo {
     transform: rotate(-90deg);
   }
-
+  
+  .other {
+    width: 100%;
+    margin-: auto;
+  }
   
 main img {
   margin-left: 0;
