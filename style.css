@@ -121,17 +121,15 @@ a:hover {
   margin: 0 auto;
 }
 
-#sidebar-left, #sidebar-right {
-  width: 100%;
+#sidebar-left{
+  padding-top: 10%;
+  width: 20%;
   float: left;
 }
-#sidebar-left{
-/*  margin: 0;
-  position: fixed;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);*/
-  padding-top: 10%;
+
+#sidebar-right {
+  width: 80%;
+  float: left;
 }
 
 /*---------Mobile Layout----------*/
