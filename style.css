@@ -37,13 +37,13 @@ ul {
 
 .other {
   width: 78%;
-  margin-left: 20%;
+  margin-left: 5%;
   margin-top: auto;
 margin-right: 1%;
 }
 
 .space {
-  width: 78%;
+  width: 90%;
 margin: auto;
 }
 
@@ -90,7 +90,7 @@ nav {
 }
 
 .topnav img{
-  width: 150px;
+  width: 90%;
 }
 
 
