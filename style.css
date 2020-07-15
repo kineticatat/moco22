@@ -12,6 +12,13 @@ text-justify: inter-word;
   src: url(brandon.otf);
 }
 
+.center1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 p {
   font-size: 18px;
 }
