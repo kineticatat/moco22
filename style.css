@@ -34,12 +34,19 @@ ul {
 
 
 .front {
-  width: 78%;
+  /*width: 78%;
+  margin-left: 30%;
+  position: fixed;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);*/
+    width: 78%;
   margin-left: 20%;
   position: fixed;
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+    
 }
 
 .other {
@@ -47,6 +54,7 @@ ul {
   margin-left: 5%;
   margin-top: auto;
 margin-right: 1%;
+
 }
 
 .space {
@@ -65,6 +73,7 @@ main img:hover {
 main img {
   margin: .75%;
 width: 12%;
+    
 }
 
 nav {
@@ -185,6 +194,8 @@ a:hover {
   /*rotate code for home page on mobile*/
 /*whole body home page*/
 .f {
+ /* transform: rotate(90deg) scale(1.5);
+  transform-origin: 60px 130px;*/
 transform: rotate(90deg) scale(1.5);
   transform-origin: 50% 50%; /* Keeps the navigation in the center when rotation occurs */
   width: 100%;
