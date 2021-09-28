@@ -186,10 +186,10 @@ a:hover {
 /*whole body home page*/
 .f {
   transform: rotate(90deg) scale(1.5);
-  transform-origin: 60px 130px;
+  transform-origin: 50% 50%;
 
   width: 100%;
-  margin: auto;
+  margin: 81%;
 }
 
 
