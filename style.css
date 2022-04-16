@@ -395,28 +395,3 @@ tr:nth-child(even) {
   margin-bottom: 10px;
 }
 
-@-webkit-keyframes hue-rotate {
-  from {
-    -moz-filter: hue-rotate(0);
-    -ms-filter: hue-rotate(0);
-    filter: hue-rotate(0);
-  }
-  to {
-    -moz-filter: hue-rotate(80deg);
-    -ms-filter: hue-rotate(80deg);
-    filter: hue-rotate(80deg);
-  }
-}
-
-@keyframes hue-rotate {
-  from {
-    -moz-filter: hue-rotate(0);
-    -ms-filter: hue-rotate(0);
-    filter: hue-rotate(0);
-  }
-  to {
-    -moz-filter: hue-rotate(80deg);
-    -ms-filter: hue-rotate(80deg);
-    filter: hue-rotate(80deg);
-  }
-}
