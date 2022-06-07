@@ -1,0 +1,64 @@
+.collapseButton {
+  vertical-align: text-top;
+}
+
+th, td {
+  padding: 1em;
+    border-radius: 5px;
+        border: 0px solid white;
+}
+
+#hidden {
+  display: none;
+}
+
+.Table {
+  margin-left: 12em;
+  margin-top: 1em;
+  margin-right: 1em;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+/*table tr:nth-child(even) {
+  background-color: #ffffff;
+  color: black;
+}*/
+
+table .even {
+  background-color: #ffffff;
+  color: black;
+}
+
+/*table tr:nth-child(odd) {
+  background-color: #808080;
+  color: white;
+}*/
+
+table .odd {
+  background-color: #808080;
+  color: white;
+}
+
+table th {
+  background-color: #3F088C;
+    color: white;
+  border: 5px solid white;
+}
+
+table th, td {
+  padding: 1em;
+  text-align: center;
+}
+
+.abstract {
+    text-align: left;
+    border: 0px solid white;
+    border-radius: 15px;
+}
+
+#collapseButton:hover {
+  background-color: #6B41A6;
+}
